@@ -1,0 +1,95 @@
+.HeaderNav{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #142b3b;
+    display: block;
+  }
+
+header .logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-weight: normal;
+    font-size: 25pt;
+    margin: 20px;
+    height: 5px;
+    text-align: start;
+    position: center;
+    transform: translate(50px,-5px);
+
+}
+header .Menu .buscador {
+  width: 40%;
+  transform: translate(400px, -30px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0px;
+}
+header .Menu ul {
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    transform: translate(10px, -50px);
+  }
+  header .Menu ul li :hover {
+    background: grey;
+    color: white;
+  }
+  header .Menu ul li .CartWidget{
+    color: white;
+    font-size: 25px;
+    padding:0px;
+    border: none;
+    margin: 0px;
+    text-decoration: none;
+    transform: translate(-60px,-30px);
+  }
+  header .Menu2 {
+    background-color: #e47c5d;
+    transform: translate(0px, -70px);
+  }
+  header .Menu2 ul {
+    width: 100%;
+    margin: 10px;
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  header .Menu2 ul li :hover {
+    background: #ff8f6c;
+    
+  }
+  header .Menu2 ul li h3 {
+    color: #142b3b ;
+    border:white 5pt ;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    border: none;
+    margin: 10px;
+    text-decoration: none;
+  }
+  header .Menu2 ul li h3 a {
+    display: block;
+    padding: 3px 20px;
+    border: 100px;
+    align-items: center;
+    margin: 1px;
+    color: white;
+    text-decoration: none;
+  }  
