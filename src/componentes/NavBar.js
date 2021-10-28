@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/NavBar.css"
+import CartWidget from './CartWidget'
 export default function NavBar() {
     return (
        <header className="HeaderNav">
@@ -41,7 +42,9 @@ export default function NavBar() {
       </div>
             <ul>
                 <li>
-                    <h5 className="CartWidget">carrito</h5>
+                  <div ClassName="CartWidget">
+                    <CartWidget/>
+                  </div>
                 </li>
             </ul>
         </nav>
