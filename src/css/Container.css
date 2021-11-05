@@ -4,9 +4,8 @@
         border: 10px;
         align-content: center; 
         align-items: center; 
+        margin-top: 50px;
 }
-p{
-    transform: translateY(200px);
-    font-size: 50pt;
-    color: black;
+.count{
+    transform: translateY(300px);
 }
