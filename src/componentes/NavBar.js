@@ -1,5 +1,5 @@
 import React from 'react'
-import "../css/NavBar.css"
+import "../componentes/css/NavBar.css"
 import CartWidget from './CartWidget'
 export default function NavBar() {
     return (
@@ -34,10 +34,6 @@ export default function NavBar() {
           <li><a className="dropdown-item" href="#">
             Camionetas
           </a></li>
-          <li><a className="dropdown-item" href="#">
-            Camiones
-          </a></li>
-          
         </ul>
       </div>
             <ul>
@@ -55,9 +51,6 @@ export default function NavBar() {
         </li>
         <li className="Menu">
           <h3>CAMIONETAS</h3>
-        </li>
-        <li className="Menu">
-          <h3>CAMIONES</h3>
         </li>
       </ul>
     </nav>

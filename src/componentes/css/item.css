@@ -1,0 +1,23 @@
+.cardImg{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardContainer{
+    transform: translateY(150px);
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+    border-color: none;
+}
+.CardContainer{
+   
+    justify-content: center;
+    align-items: center;
+   
+}

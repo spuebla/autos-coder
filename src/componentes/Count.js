@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import React from 'react'
-import "../css/Container.css"
+import "../componentes/css/Container.css"
 
 const Count=({stock , initial})=> {
   const [count, setCount] = useState(initial)
